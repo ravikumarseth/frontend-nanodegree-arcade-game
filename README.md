@@ -1,6 +1,26 @@
-frontend-nanodegree-arcade-game
-===============================
+# Frogger -Classic Arcade Game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This project is recreation of the classic arcade game forgger.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Getting Started
+
+### Pre-requisites
+
+A device with any web browser with JavaScript enabled and a keyboard virtual or real with direction keys.
+
+### Installing
+
+There is no need to install anything. To run the game simply open the **index.html** in any web browser. When the game loads click **Start** button to start the game.
+
+## Rules of the Game
+
+ * This is a time based game**(30 secs)**.
+ * Player starts with a random character in the grass region.
+ * To **Score** a point player needs to reach water region by crossing the stone region.
+ * On reaching water region, player position is reset with a new random character.
+ * Player needs to avoid getting hit by enemies**(Bugs)** which cross the street.
+ * Hitting enemies adds to **Misses** and resets player position with random character.
+ * To **win** the game player needs to **Score more than or equal to 7** and **Score must be greater than Misses**.
+ * If **Score is less than 7** then **player losses**.
+ * If **Score is less than Misses** then **player losses**.
+ * If **Score is equal to Misses** then **it's a draw**.
