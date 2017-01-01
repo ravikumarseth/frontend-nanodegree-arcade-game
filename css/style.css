@@ -1,3 +1,36 @@
 body {
     text-align: center;
 }
+
+p {
+    margin: 0;
+}
+
+date {
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: green;
+}
+
+p span {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: green;
+    margin-right: 20px;
+}
+
+p span:last-child {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: red;
+    margin-left: 20px;
+}
+
+button {
+    padding: 5px;
+    border: 2px solid #000;
+    background-color: beige;
+    font-weight: bold;
+    text-transform: uppercase;
+}
